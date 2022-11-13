@@ -1,0 +1,672 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Gilroy";
+
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    outline: none;
+}
+#main{
+    width: 100vw;
+    height: 100vh;
+}
+#navbar  {
+    width: 100%;
+    height: 10%;
+ display: flex;
+ align-items: center;
+ justify-content: space-around;
+ position: absolute;
+ top: 2%;
+ 
+
+}
+#first{
+    color: rgb(126, 234, 234);
+    font-size: 1.7rem;
+    border-radius: .5rem;
+    padding:.5rem 1.5rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+#navbar .game{
+     text-decoration: none;
+     text-transform: uppercase;
+}
+#navbar .game{
+    font-size: 1.7rem;
+    border-radius: .5rem;
+    padding:.5rem 1.5rem;
+    color:white;
+    cursor: pointer;
+}
+#navbar .game:hover{
+    color: aquamarine;
+    transform: rotate(360deg);
+    transition: cubic-bezier(0.19, 1, 0.22, 1)5s;
+}
+.imgg{
+    width: 100%;
+    height: 100%;
+}
+#centerarea{
+    color: white;
+}
+#centerarea h2{
+    position: absolute;
+    top: 42%;
+    left:33% ;
+    font-size: 57px;
+    font-weight: 300;
+    cursor: pointer;
+}
+#centerarea h3{
+    position: absolute;
+    top: 54%;
+    left:43% ;
+    font-size: 20px;
+    font-weight: 300;
+   
+}
+#centerarea h2:hover{
+    color: aqua;
+    transition: cubic-bezier(0.19, 1, 0.22, 1)3s;
+    
+}
+#second{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+}
+#explore{
+    color: white; 
+    position: relative;
+
+}
+#explore h2{
+    margin-top: 3%;
+   position: absolute;
+   left: 38%;
+   font-size: 37px;
+   font-weight: 400;
+}
+#explore h4{
+    text-transform: uppercase;
+    width: 35%;
+    margin-top: 7%;
+   position: absolute;
+   left: 33%;
+   font-size: 12px;
+   font-weight: 300;
+  
+}
+#explore h4:hover{
+  
+    color: rgb(242, 151, 242);
+    transition: cubic-bezier(0.19, 1, 0.22, 1)3s; 
+}
+
+#one:hover{
+    color: chartreuse;
+    transition: cubic-bezier(0.19, 1, 0.22, 1)3s;
+    opacity: 1;
+    
+}
+#explore #two:hover{
+    color: rgb(89, 153, 159);
+    transition: cubic-bezier(0.19, 1, 0.22, 1)3s;
+    opacity: 1;
+    
+}
+
+#places{
+ position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+    overflow: hidden;
+    position: absolute;
+    left: 2%;
+}
+#norway{
+    margin-top: 15%;
+    width: 17%;
+    height: 40%;
+    border-radius: 20px;
+    background-color: brown;
+    cursor: pointer;
+}
+#unite{
+    overflow: hidden;
+    margin-top: 15%;
+    width: 17%;
+    height: 40%;
+    border-radius: 20px;
+    background-color: brown;
+    cursor: pointer;
+}
+#gross{
+    margin-top: 15%;
+    width: 17%;
+    height: 40%;
+    border-radius: 20px;
+    background-color: brown;
+    cursor: pointer;
+    overflow: hidden;
+}
+#norway .gone{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  background-position: center;
+  background-size: cover;
+}
+#norway:hover{
+    transition: ease-in-out 3s;
+   transform: rotate(20deg);
+}
+#unite:hover{
+    transition: ease-in-out 2s;
+   transform: rotate(-20deg);
+}
+#gross:hover{
+    transition: ease-in-out 2s;
+   transform: rotate(-20deg);
+}
+.see{
+    color: rgb(72, 86, 211);
+   position: absolute;
+   left: 50%;
+   top: 185%;
+   cursor: pointer;
+}
+.see:hover{
+    color: blue;
+}
+#three{
+    width: 100vw;
+    height: 120vh;
+    background-color: black;
+    position: relative;
+    color: white;
+}
+#joun{
+      color: white;
+        position: relative;
+           width: 100%;
+           height: 100%;
+           display: flex;
+           justify-content: center;
+           gap: 10%;
+           overflow: hidden;
+           position: absolute;
+           left: 2%;
+       }
+    
+
+#joun h2{
+    position: absolute;
+    left: 45%;
+    font-size: 37px;
+    font-weight: 400;
+}
+#joun h4{
+    text-transform: uppercase;
+    width: 25%;
+    margin-top: 5%;
+   position: absolute;
+   left: 40%;
+   font-size: 12px;
+   font-weight: 300;
+   opacity: 1;
+}
+#joun h4:hover{
+    color: chartreuse;
+    transition: cubic-bezier(0.19, 1, 0.22, 1)3s;
+    opacity: 1;
+    
+}
+#three{
+    position: relative;
+}
+#lovw
+{ 
+        width: 20%;
+        height: 40%;
+        border-radius: 20px;
+        cursor: pointer;
+        overflow: hidden;
+        position: absolute;
+        top: 30%;
+        left: 28%;
+        object-fit: cover;
+        background-size: cover;
+        cursor: pointer;
+    }
+    #low
+    { 
+        width: 20%;
+        height: 40%;
+        border-radius: 20px;
+        
+        cursor: pointer;
+        overflow: hidden;
+        position: absolute;
+        top: 30%;
+        left: 58%;
+        object-fit: cover;
+        background-size: cover;
+    }
+#three .a{
+    position: absolute;
+    top: 72%;
+    left: 34%;
+    text-transform: uppercase;
+    width: 25%;
+   font-size: 12px;
+   font-weigh:300;
+}
+
+#three .b{ position: absolute;
+    position: absolute;
+    top: 75%;
+    left: 30%;
+    text-transform: uppercase;
+    width: 25%;
+   font-size: 22px;
+   font-weigh:300;
+}
+#three .c{ position: absolute;
+     position: absolute;
+        position: absolute;
+        top: 80%;
+        left: 27%;
+        text-transform: uppercase;
+        width: 25%;
+       font-size: 12px;
+       font-weigh:200;
+    }
+#three .q{
+    position: absolute;
+    top: 72%;
+    left: 65%;
+    text-transform: uppercase;
+    width: 25%;
+   font-size: 12px;
+   font-weigh:300;
+}
+
+#three .w{ position: absolute;
+    position: absolute;
+    top: 75%;
+    left: 61%;
+    text-transform: uppercase;
+    width: 25%;
+   font-size: 22px;
+   font-weigh:300;
+}
+#three .e{ position: absolute;
+     position: absolute;
+        position: absolute;
+        top: 80%;
+        left: 61%;
+        text-transform: uppercase;
+        width: 25%;
+       font-size: 12px;
+       font-weigh:200;
+    }
+    #four{
+        width: 100vw;
+        height: 100vh;
+        background-color: black;
+        position: relative;
+        color: white;
+    }
+    #imagetee{
+        width: 100%;
+        height: 100%;
+    }
+    .kop{
+          color: white;
+            position: absolute;
+            top: 90%;
+            left: 40%;
+            text-transform: uppercase;
+            width: 25%;
+           font-size: 22px;
+           font-weigh:300;
+        
+    }
+    .kop:hover{
+        color: aqua;
+        transition: cubic-bezier(0.165, 0.84, 0.44, 1)3sS;
+    }
+    #lam{
+        color: rgb(72, 86, 211);
+       position: absolute;
+       left: 50%;
+       top: 92%;
+       cursor: pointer;
+       text-transform: uppercase;
+       font-weight: 700;
+      
+    }
+    #lam:hover{
+        color: blue;
+    }
+    #three #lovw:hover{
+        transition: ease-in-out 3s;
+       transform: rotate(20deg);
+    }
+    #low:hover{
+        transition: ease-in-out 2s;
+       transform: rotate(-20deg);
+    }
+    
+#contact{
+    width: 100%;
+    height: 100vh;
+    background-color: azure;
+}
+.heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.heading span{
+    position: absolute;
+    left: 50%;
+    top: 5%;
+}
+.contact-form {
+    display: grid;
+    place-items: center;
+    margin-top: 2rem;
+  }
+  .contact-form form {
+    display: flex;
+    flex-direction: column;
+    width: 650px;
+  }
+  form input,
+  textarea {
+    padding: 15px;
+    border-radius: 0.5rem;
+    width: 100%;
+    border: none;
+    outline: none;
+    background: hsla(260, 100%, 44%, 0.1);
+    margin-bottom: 1rem;
+    color: var(--text-color);
+  }
+  form input::placeholder,
+  textarea::placeholder {
+    color: var(--text-color);
+  }
+  form textarea {
+    resize: none;
+    height: 200px;
+  }
+  .contact-button {
+    width: 160px;
+    cursor: pointer;
+    background: #2768d9;
+    color: #fff;
+    justify-content: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-left: 35%;
+  }
+  .contact-button:hover {
+    background: black;
+  }
+  
+    @media (max-width:550px) {
+        #first{
+            color: rgb(126, 234, 234);
+            font-size: 16px;
+            border-radius: .5rem;
+            padding:.5rem 1.5rem;
+            text-decoration: none;
+            text-transform: uppercase;
+            cursor: pointer;
+        }
+        #navbar .game{
+            text-decoration: none;
+            text-transform: uppercase;
+       }
+       #navbar .game{
+           font-size: 14px;
+           border-radius: .5rem;
+           padding:.5rem .5rem;
+           color:white;
+           cursor: pointer;
+    }
+    #centerarea h2{
+        width: 40%;
+        position: absolute;
+        top: 32%;
+        left:30% ;
+        font-size: 37px;
+        font-weight: 300;
+        cursor: pointer;
+    }
+    #centerarea h3{
+        position: absolute;
+        top: 53%;
+        left:30% ;
+        font-size: 20px;
+        font-weight: 300;
+       
+    }
+    #norway{
+        display: none;
+        width: 27%;
+        height: 40%;
+        border-radius: 30px;
+        background-color: brown;
+        cursor: pointer;
+    }
+    #unite{
+        overflow: hidden;
+        position: absolute;
+        top:53%;
+        left: 0;
+        width: 90%;
+        height: 30%;
+        border-radius: 20px;
+        background-color: brown;
+        cursor: pointer;
+    }
+    #gross{
+        position: absolute;
+        top:15%;
+        left: 0;
+        width: 90%;
+        height: 30%;
+        border-radius: 20px;
+        background-color: brown;
+        cursor: pointer;
+        overflow: hidden;
+    }
+    #explore h2{
+        margin-top: 3%;
+       position: absolute;
+       left: 28%;
+       font-size: 20px;
+       font-weight: 400;
+    }
+    #explore h4{
+        width: 80%;
+        text-transform: uppercase;;
+        margin-top: 12%;
+       position: absolute;
+       left: 12%;
+       font-size: 12px;
+       font-weight: 300;
+      
+    }
+    .see{
+        position: absolute;
+        top:195%;
+        left: 35%;
+    }
+    #joun h2{
+        position: absolute;
+        top: 1%;
+        left: 35%;
+        font-size: 20px;
+        font-weight: 400;
+    }
+    #joun h4{
+        text-transform: uppercase;
+        width: 75%;
+       position: absolute;
+       top: 3%;
+       left: 17%;
+       font-size: 12px;
+       font-weight: 300;
+       opacity: 1;
+    }
+    #lovw
+  { 
+        width: 90%;
+        height: 20%;
+        border-radius: 20px;
+        cursor: pointer;
+        overflow: hidden;
+        position: absolute;
+        top: 13%;
+        left: 5%;
+        object-fit: cover;
+        background-size: cover;
+        cursor: pointer;
+    }
+    #low
+    { 
+        width: 90%;
+        height: 20%;
+        border-radius: 20px;
+        cursor: pointer;
+        overflow: hidden;
+        position: absolute;
+        top: 50%;
+        left: 5%;
+        object-fit: cover;
+        background-size: cover;
+    }
+    #three .a{
+        position: absolute;
+        top: 35%;
+        left: 34%;
+        text-transform: uppercase;
+        width: 25%;
+       font-size: 12px;
+       font-weigh:300;
+    }
+    
+    #three .b{ position: absolute;
+        position: absolute;
+        top:38%;
+        left: 30%;
+        text-transform: uppercase;
+        width: 55%;
+       font-size: 12px;
+       font-weigh:300;
+       display: flex;
+    }
+    #three .c{ position: absolute;
+         position: absolute;
+            position: absolute;
+            top: 42%;
+            left: 11%;
+            text-transform: uppercase;
+            width: 80%;
+           font-size: 12px;
+           font-weigh:200;
+        }
+    #three .q{
+        position: absolute;
+        top: 72%;
+        left: 34%;
+        text-transform: uppercase;
+        width: 25%;
+       font-size: 12px;
+       font-weigh:300;
+    }
+    
+    #three .w{ position: absolute;
+        position: absolute;
+        top: 75%;
+        left: 30%;
+        text-transform: uppercase;
+        width: 55%;
+       font-size: 12px;
+       font-weigh:300;
+    }
+    #three .e{ position: absolute;
+         position: absolute;
+            position: absolute;
+            top: 80%;
+            left: 11%;
+            text-transform: uppercase;
+            width: 85%;
+           font-size: 12px;
+           font-weigh:200;
+        }
+        #lam{
+            position: absolute;
+            top: 90%;
+            left: 38%;
+        }
+    .kop{
+        width: 80%;
+        position: absolute;
+        top: 90%;
+        left: 12%;
+    }
+    .contact-form form {
+        display: flex;
+        flex-direction: column;
+        width: 250px;
+      }
+      .contact-button {
+        width: 160px;
+        cursor: pointer;
+        background: #2768d9;
+        color: #fff;
+        justify-content: center;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        margin-left: 20%;
+      }
+    }
+    .footer {
+        display: grid;
+        place-items: center;
+        padding: 20px;
+        background: #ebebeb;
+        color: #000;
+      }
+      .footer h2 {
+        font-size: 1.5rem;
+        margin-bottom: 1.6rem;
+      }
+      .footer-social a i{
+        color: rgb(10, 26, 208);
+        font-size: 25px;
+        margin-left: 10px;
+        text-align: center;
+        line-height: 40px;
+        background-color: #fff;
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+      } 
